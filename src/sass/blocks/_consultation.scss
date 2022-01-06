@@ -1,0 +1,33 @@
+.consultation {
+    min-height: 680px;
+    padding: 100px 0 92px;
+    background: url(../../img/bg/run.jpg) center center/cover no-repeat;
+    &__descr {
+        font-weight: 500;
+        font-size: 20px;
+        color: #FFFFFF;
+    }
+}
+
+@media (max-width: 991px) {
+    .consultation{
+        padding: 90px 20px 80px;
+    }
+}
+@media (max-width: 767px) {
+    .consultation {
+        &__descr {
+            font-size: 18px;
+        }
+    }
+}
+@media (max-width: 575px) {
+    .consultation {
+        min-height: auto;
+        padding: 60px 10px 50px;
+        &__descr {
+            font-size: 15px;
+            text-align: center;
+        }
+    }
+}

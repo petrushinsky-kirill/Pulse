@@ -1,12 +1,6 @@
 .preferences {
     min-height: 475px;
     padding: 73px 0 65px;
-    &__title {
-        font-weight: bold;
-        font-size: 30px;
-        text-align: center;
-        color: #0D0D0D;
-    }
     &__items {
         margin-top: 60px;
         display: flex;
@@ -58,11 +52,11 @@
     .item-preferences{
         width: 300px;
         &_title{
-            margin-top: 25px;
+            margin-top: 20px;
             font-size: 16px;
         }
         &_text {
-            margin-top: 15px;
+            margin-top: 10px;
             font-size: 14px;
         }
     }
