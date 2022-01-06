@@ -16,3 +16,26 @@
         font-size: 16px;
     }
 }
+
+@media (max-width: 575px) {
+    .button {
+        width: 140px;
+        &_main {
+            margin-top: 50px;
+            width: 280px;
+            height: 50px;}
+        }
+}
+
+@media (max-width: 320px) {
+    .button {
+        width: 125px;
+        height: 25px;
+        font-size: 11px;
+        &_main {
+            width: 250px;
+            height: 40px;
+            font-size: 14px;
+        }}
+
+}

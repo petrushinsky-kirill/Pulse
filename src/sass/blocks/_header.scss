@@ -33,3 +33,36 @@
         align-items: flex-end;
     }
 }
+
+@media (max-width: 767px){
+    .header{
+        &__official {
+            display: none;
+        }
+}}
+@media (max-width: 767px){
+    .header {
+        &__logo {
+            width: 180px;
+            padding-right: 10px;
+        }
+        &__phone {
+            font-size: 16px;
+        }
+    }
+}
+
+
+@media (max-width: 320px) {
+    .header {
+        &__logo {
+            width: 150px;
+        }
+        &__phone {
+            font-size: 14px;
+        }
+    }
+
+
+}
+
