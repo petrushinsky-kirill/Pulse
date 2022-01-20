@@ -24,7 +24,60 @@
 }
 
 @media (max-width: 991px) {
-    .carousel{
-        width: 700px;
+    .carousel {
+        &__inner {
+            width: 700px;
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .slick-dots {
+        display: flex;
+        justify-content: center;
+        li {
+            list-style-type: none;
+            display: block;
+            margin: 10px 10px;
+        }
+        button {
+            font-size: 0;
+            border: none;
+            background-color: grey;
+            height: 12px;
+            width: 12px;
+            border-radius: 50%;
+            outline: 0;
+        }
+    } 
+    .slick-active {
+        button {
+            background-color: $main-color;
+        }
+        
+    }
+}
+
+@media (max-width: 767px) {
+    .carousel {
+        padding: 61px 0;
+        &__inner {
+            width: 500px;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .carousel {
+        padding: 41px 0;
+        &__inner {
+            width: 300px;
+            img {
+                width: 100%;
+            }
+        }
     }
 }
