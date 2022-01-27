@@ -60,4 +60,12 @@
             font-size: 14px;
         }
     }
+
 }}
+
+#animated {
+    animation: heartbeat 1s ease infinite;
+    &:hover {
+        animation-play-state: paused;
+    }
+}
